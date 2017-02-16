@@ -185,6 +185,23 @@ var fn7 = (?) => {
 ["C", "D", "E"]
 ```
 
+My Answer:
+var someArray = ['A', 'B', 'C', 'D', 'E'];
+
+var fn7 = (a,b, rest,of,them, arr) => {
+    console.log(a)
+    console.log(b)
+    console.log([rest,of,them])
+}
+
+fn7(...someArray)
+
+
+
+
+
+
+
 object destructuring
 ```javascript
 let node = { 
